@@ -1,3 +1,5 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+[context.production.environment]
+  HUGO_VERSION = "0.79"
