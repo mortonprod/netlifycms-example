@@ -23,6 +23,12 @@ collections:
         widget: "list"
         fields:
           - {label: Image, name: image, widget: image}
+      - label: "Material List"
+        name: "material-list"
+        widget: "list"
+        fields:
+          - {label: Text, name: text, widget: string}
+          - {label: Link, name: link, widget: string}
       - label: "Tags"
         name: "tags"
         widget: "select"
