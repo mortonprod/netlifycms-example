@@ -20,7 +20,6 @@
     <p class="date">{{ .Params.quickDescription }}</p>
     {{ .Params.description | .RenderString }}
     {{ .Params.detail | .RenderString }}
-    {{ .Params.material | .RenderString }}
     <ul class="filter-wrapper clearfix">
       {{ range .Params.image }}
         <li>{{ .image }}</li>
