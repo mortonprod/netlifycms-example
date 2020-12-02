@@ -1,5 +1,0 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-[build.environment]
-  HUGO_VERSION = "0.79"
