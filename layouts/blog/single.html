@@ -17,8 +17,25 @@
   <body>
     <h1>{{ .Title }}</h1>
     <p class="date">{{ .Date }}</p>
+    <p class="date">{{ .Params.quickDescription }}</p>
     {{ .Params.description | .RenderString }}
+    {{ .Params.detail | .RenderString }}
     {{ .Params.material | .RenderString }}
+    <ul class="filter-wrapper clearfix">
+      {{ range .Params.image }}
+        <li>{{ .image }}</li>
+      {{ end }}
+    </ul>
+    <ul class="filter-wrapper clearfix">
+      {{ range .Params.material }}
+        <li>{{ .text }} //// {{ .link }}</li>
+      {{ end }}
+    </ul>
+    <ul class="filter-wrapper clearfix">
+      {{ range .Params.tags }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
     <img src="{{ .Params.image }}" alt="{{ .Title }}" width="500" height="600">
   </body>
 </html>
