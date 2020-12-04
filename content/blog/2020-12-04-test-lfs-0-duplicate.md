@@ -1,0 +1,38 @@
+---
+title: Test lfs 0 Duplicate
+date: 2020-12-04T16:58:16.254Z
+quickDescription: Test lfs 0
+description: "**Lorem Ipsum** is simply dummy text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+  ever since the 1500s, when an unknown printer took a galley of type and
+  scrambled it to make a type specimen book. It has survived not only five
+  centuries, but also the leap into electronic typesetting, remaining
+  essentially unchanged. It was popularised in the 1960s with the release of
+  Letraset sheets containing Lorem Ipsum passages, and more recently with
+  desktop publishing software like Aldus PageMaker including versions of Lorem
+  Ipsum"
+detail: >-
+  **Lorem Ipsum** is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it to make a type
+  specimen book. It has survived not only five centuries, but also the leap into
+  electronic typesetting, remaining essentially unchanged. It was popularised in
+  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+  and more recently with desktop publishing software like Aldus PageMaker
+  including versions of Lorem Ipsum
+
+
+  Here is a test change
+
+
+
+
+  Another test change
+images:
+  - image: /img/lfs/dino1.jpg
+material:
+  - text: dasdasd
+    link: dsadasd
+tags:
+  - knit
+---
