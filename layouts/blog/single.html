@@ -42,8 +42,8 @@
     <div class="row">
       <div class="col-md-6 col-sm-6">
         <ul class="filter-wrapper clearfix">
-          {{ range .Params.image }}
-          <li>{{ .image }}</li>
+          {{ range .Params.images }}
+          <li><img src="{{.image}}" alt="Test Img" width="300"></li>
           {{ end }}
         </ul>
       </div>
